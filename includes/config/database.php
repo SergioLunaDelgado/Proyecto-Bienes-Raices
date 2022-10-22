@@ -1,4 +1,5 @@
 <?php
+
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->safeLoad(); /* Si un archivo no existe no marca error */
 /* Ya no es necesario tener la forma de funcion (mysqli_connect) sino de objeto */
