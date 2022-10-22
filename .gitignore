@@ -4,5 +4,6 @@ src/
 gulpfile.js
 package.json
 package-lock.json
+.env
 bienesraices_crud.sql
 Notas.txt

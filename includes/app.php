@@ -11,6 +11,6 @@ require 'funciones.php';
 require 'config/database.php';
 
 /* Conectar base de datos */
-$db = conectarDB();
+// $db = conectarDB();
 use Model\ActiveRecord;
 ActiveRecord::setDB($db);
