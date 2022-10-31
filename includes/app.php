@@ -13,4 +13,8 @@ require 'config/database.php';
 /* Conectar base de datos */
 // $db = conectarDB();
 use Model\ActiveRecord;
+echo "<pre>";
+var_dump($db);
+echo "</pre>";
+die();
 ActiveRecord::setDB($db);
